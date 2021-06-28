@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    height: 120px;
+    width: 100%;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid blue;
+}
+
+h1{
+    font-size: 2.5rem;
+    color: rgb(15, 15, 196);;
+}
+
+main{
+    width: 100%;
+    height: 600px;
+}
+
+.maincontainer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 50px;
+}
+
+.leftmain{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.rightmain{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 100px;
+}
+
+.usercard{
+    width: 100%;
+    height: 200px;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 30px;
+    background-color: aqua;
+}
+
+.usercardpremium{
+    width: 100%;
+    height: 200px;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    line-height: 35px;
+    background-color: aqua;
+}    
+
+span{
+    font-size: 15px;
+    color: rgb(15, 15, 196);
+}
