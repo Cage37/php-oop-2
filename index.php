@@ -1,6 +1,9 @@
 <?php
 
-require __DIR__ . '/partials/php/database.php'
+require __DIR__ . '/classes/php/product.php';
+require __DIR__ . '/classes/php/user.php';
+require __DIR__ . '/classes/php/userpremium.php';
+require __DIR__ . '/classes/php/database.php';
 
 ?>
 
